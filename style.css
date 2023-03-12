@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+main{
+    font-family: 'Bai Jamjuree'; 
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    padding:123px 32px 0px 32px;  
+    background-image: url(images/bg-header-mobile.png); 
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+}
+header h1{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.521739px;
+    color: #4C545C;
+    margin-top:64px; 
+}
+header p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    margin-top:16px;
+}
+.buttonscontainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap:24px; 
+    margin-top:48px;
+}
+button{
+    width:311px;
+    height:56px;
+    border-radius: 28px;
+    border:none;
+    font-family:"Bai Jamjuree";  
+    font-weight: 600; 
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.buttonscontainer .iosbutton{
+    background: #26BBA4;
+    box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);  
+}
+.buttonscontainer .macbutton{
+    background: #6174FF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333); 
+}
+.track{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding:160px 32px 0px 31px;  
+}
+h2{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.456522px;
+    color: #4C545C; 
+}
+.track h2{
+    margin-bottom:6px; 
+} 
+h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.391304px;
+    color: #4C545C;
+}
+.track h3{
+    margin-top:48px;  
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+}
+.track p{
+    margin-top:10px; 
+}
+.track img{
+    margin:65px 0px 8px 0px; 
+    width:100%; 
+}
+.access{
+    padding:186px 32px 0px 32px;  
+}
+.access p{
+    margin-top:16px;
+}
+.access img{
+    width:100%; 
+    margin-top:64px;
+}
+.workflow{
+    padding:130px 32px 0px 32px; 
+}
+.workflowdiv{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+#blacklists{
+    margin-top:90px; 
+}
+.workflowdiv h3{
+    margin-top:40px;
+    margin-bottom:18px; 
+}
+.workflowdiv img{
+    margin-top:56px;  
+}
+.companysection{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap:57px; 
+    padding:132px 118px 0px 118px;  
+}
+.clipboardsection{
+    padding:170px 32px 170px 32px;  
+}
+.clipboardsection p{
+    margin-top:16px;
+}
+footer{
+    padding:52px 107px 51px 108px;  
+    background-color:rgba(158, 171, 178, 0.1); 
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+.redirectbuttons{
+    text-align: center; 
+    margin-top:40px;
+    margin-bottom:48px; 
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+footer .logo{
+    width:55px;  
+}
+.socialnetwork{
+    display: flex;
+    gap:40px; 
+}
+.macbutton:hover, .iosbutton:hover{
+    opacity:60%;  
+    cursor:pointer; 
+}
+a:hover{
+    color: #26BBA4;
+    cursor: pointer;
+}
+.socialnetwork img:hover{
+    filter: invert(58%) sepia(98%) saturate(330%) hue-rotate(121deg) brightness(88%) contrast(90%);
+}
+@media only screen and (min-width: 1440px){
+    header{
+        padding:128px 355px 0px 355px;  
+        background-image: url(images/bg-header-desktop.png); 
+    }
+    header h1{
+        font-size: 46px;
+        line-height: 57.5px; 
+        letter-spacing: -0.75px;
+        margin-top:66px;  
+    }
+    header p{
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.15px; 
+    }
+    .buttonscontainer{
+        flex-direction: row; 
+        gap:16px; 
+    }
+    button{
+        width:227px;
+    }
+    .track{
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        align-items: unset; 
+        padding:150px 0px 0px 0px;  
+    }
+    .sectiontitle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        padding:0px 355px 0px 355px;  
+    }
+    .sectioncontent{
+        display:flex;
+        align-items: center;
+        margin:0px 260px 0px -30px;         
+    }
+    .contentinfo{
+        margin-left:110px; 
+    }
+    .contentinfo > *{
+        text-align: start; 
+    }
+    h2{
+        font-size: 36px;
+        line-height: 45px;
+        letter-spacing: -0.59px; 
+    }
+    .track h2{
+        margin-bottom:19px;  
+    } 
+    .track h3{
+        margin-top:0px;   
+    }
+    p{
+        line-height: 30px;
+    }
+    .contentinfo p{
+        margin-top:8px; 
+        margin-bottom:56px;  
+    }
+    .track img{
+        margin:80px 0px 0px 0px;  
+        width:100%; 
+        max-width: 860px; 
+    }
+    .access{
+        display:flex;
+        flex-direction: column;
+        align-items: center; 
+        padding:150px 314px 0px 314px;  
+    } 
+    .access p{
+        font-size: 18px;
+        line-height: 30px;  
+        margin-top:19px;
+    }
+    .access img{
+        width:100%; 
+        max-width:1032px; 
+        margin-top:110px; 
+    }
+    .workflow{
+        padding:161px 165px 0px 165px;  
+    }
+    .titletext{
+        margin-top:19px; 
+    }
+    .workflowcontainer{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; 
+        justify-content: space-between; 
+        gap:30px; 
+        margin-top: 72px; 
+    }
+    .workflowdiv{
+        width:350px; 
+    }
+    #blacklists{
+        margin-top:0px; 
+    }
+    .workflowdiv h3{
+        margin-top:40px;
+        margin-bottom:16px;  
+    }
+    .workflowdiv img{
+        margin-top:0px;    
+    }
+    .companysection{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; 
+        gap:0px; 
+        padding:150px 165px 0px 165px;    
+    }
+    .clipboardsection{
+        padding:161px 355px 150px 355px;   
+    }
+    .clipboardsection p{
+        font-size:18px;
+        line-height: 30px; 
+        margin-top:19px; 
+    }
+    footer{
+        padding:39px 165px 39px 165px;   
+        background-color:rgba(158, 171, 178, 0.1); 
+        display:flex;
+        flex-direction: row;  
+        justify-content: space-between;   
+        
+    }
+    .redirectbuttons{ 
+        padding:0px 0px 0px 0px; 
+        display:grid;  
+        grid-template-columns: auto auto auto; 
+        grid-template-rows: auto auto; 
+        justify-items: start;   
+        column-gap:30px;
+        row-gap:12px;   
+        column-gap:150px;   
+        margin-left:-150px;   
+    }
+    .socialnetwork{
+        gap:24px;  
+    }
+    .faqs{
+        grid-column: 1;
+        grid-row:1;
+    }
+    .contactus{
+        grid-column: 1;
+        grid-row:2;  
+    }
+    .presskit{
+        grid-column: 2;
+        grid-row:2;
+    } 
+}
